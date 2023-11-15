@@ -1,0 +1,16 @@
+{
+  "name": "domain-event",
+  "version": "0.0.1",
+  "description": "The domain event.",
+  "author": "VP",
+  "license": "ISC",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": ["lib/**/*"],
+  "scripts": {
+    "build": "tsc"
+  },
+  "devDependencies": {
+    "typescript": "^4.9.5"
+  }
+}

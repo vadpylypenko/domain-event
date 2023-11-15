@@ -6,11 +6,25 @@
   "license": "ISC",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
-  "files": ["lib/**/*"],
+  "files": [
+    "lib/**/*"
+  ],
   "scripts": {
     "build": "tsc"
   },
   "devDependencies": {
     "typescript": "^4.9.5"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vadpylypenko/domain-event.git"
+  },
+  "bugs": {
+    "url": "https://github.com/vadpylypenko/domain-event/issues"
+  },
+  "homepage": "https://github.com/vadpylypenko/domain-event#readme"
 }
